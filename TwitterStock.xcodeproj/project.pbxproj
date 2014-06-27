@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		524CC148195CD35C009B9D9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524CC147195CD35C009B9D9E /* AppDelegate.swift */; };
 		524CC14A195CD35C009B9D9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524CC149195CD35C009B9D9E /* ViewController.swift */; };
-		524CC14D195CD35C009B9D9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524CC14B195CD35C009B9D9E /* Main.storyboard */; };
 		524CC14F195CD35C009B9D9E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524CC14E195CD35C009B9D9E /* Images.xcassets */; };
 		524CC15B195CD35C009B9D9E /* TwitterStockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524CC15A195CD35C009B9D9E /* TwitterStockTests.swift */; };
+		52E91EA6195D2A1B0041DF2E /* StockChartTAbleViewCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E91EA5195D2A1B0041DF2E /* StockChartTAbleViewCellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,11 +29,11 @@
 		524CC146195CD35C009B9D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		524CC147195CD35C009B9D9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		524CC149195CD35C009B9D9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		524CC14C195CD35C009B9D9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		524CC14E195CD35C009B9D9E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		524CC154195CD35C009B9D9E /* TwitterStockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterStockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		524CC159195CD35C009B9D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		524CC15A195CD35C009B9D9E /* TwitterStockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterStockTests.swift; sourceTree = "<group>"; };
+		52E91EA5195D2A1B0041DF2E /* StockChartTAbleViewCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockChartTAbleViewCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				524CC147195CD35C009B9D9E /* AppDelegate.swift */,
+				52E91EA5195D2A1B0041DF2E /* StockChartTAbleViewCellTableViewCell.swift */,
 				524CC149195CD35C009B9D9E /* ViewController.swift */,
-				524CC14B195CD35C009B9D9E /* Main.storyboard */,
 				524CC14E195CD35C009B9D9E /* Images.xcassets */,
 				524CC145195CD35C009B9D9E /* Supporting Files */,
 			);
@@ -189,7 +189,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				524CC14D195CD35C009B9D9E /* Main.storyboard in Resources */,
 				524CC14F195CD35C009B9D9E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52E91EA6195D2A1B0041DF2E /* StockChartTAbleViewCellTableViewCell.swift in Sources */,
 				524CC14A195CD35C009B9D9E /* ViewController.swift in Sources */,
 				524CC148195CD35C009B9D9E /* AppDelegate.swift in Sources */,
 			);
@@ -230,17 +230,6 @@
 			targetProxy = 524CC155195CD35C009B9D9E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		524CC14B195CD35C009B9D9E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				524CC14C195CD35C009B9D9E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		524CC15C195CD35C009B9D9E /* Debug */ = {
@@ -397,6 +386,7 @@
 				524CC160195CD35C009B9D9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		524CC161195CD35C009B9D9E /* Build configuration list for PBXNativeTarget "TwitterStockTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +395,7 @@
 				524CC163195CD35C009B9D9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
